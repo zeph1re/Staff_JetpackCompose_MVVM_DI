@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.sp
 import binar.ganda.staff_jetpackcompose_mvvm_di.model.GetAllStaffItem
 import binar.ganda.staff_jetpackcompose_mvvm_di.ui.theme.Staff_JetpackCompose_MVVM_DITheme
 import coil.compose.rememberImagePainter
+import androidx.annotation.Nullable as Nullable
 
 class DetailActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

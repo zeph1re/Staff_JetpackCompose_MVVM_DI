@@ -8,7 +8,7 @@ data class GetAllStaffItem(
     @SerializedName("createdAt")
     val createdAt: String,
     @SerializedName("description")
-    val description: String,
+    val description: String?,
     @SerializedName("director")
     val director: String?,
     @SerializedName("email")
