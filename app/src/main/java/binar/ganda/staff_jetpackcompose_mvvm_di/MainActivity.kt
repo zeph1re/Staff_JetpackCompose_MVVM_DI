@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun StaffCard(staff : GetAllStaffItem) {
     Column(
-        modifier = Modifier.padding(15.dp)
+      
     ) {
         val mContext = LocalContext.current
         Card(
